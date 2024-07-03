@@ -1,1 +1,1 @@
-Check out the webSite here : https://krishnanu-nag.github.io/Portfolio_final/index.html
+Check out the website here : https://krishnanu-nag.github.io/Portfolio_final/index.html
