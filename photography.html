@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+  
+
+:root {
+  --shadow-color: 0deg 0% 60%;
+  --shadow-elevation-low:
+    0.3px 0.3px 0.5px hsl(var(--shadow-color) / 0.34),
+    0.5px 0.6px 0.9px -1.2px hsl(var(--shadow-color) / 0.34),
+    1.1px 1.3px 1.9px -2.5px hsl(var(--shadow-color) / 0.34);
+  --shadow-elevation-medium:
+    0.3px 0.3px 0.5px hsl(var(--shadow-color) / 0.36),
+    0.9px 1.1px 1.6px -0.8px hsl(var(--shadow-color) / 0.36),
+    2.3px 2.8px 4.1px -1.7px hsl(var(--shadow-color) / 0.36),
+    5.7px 6.7px 9.9px -2.5px hsl(var(--shadow-color) / 0.36);
+  --shadow-elevation-high:
+    0.3px 0.3px 0.5px hsl(var(--shadow-color) / 0.34),
+    1.7px 2px 3px -0.4px hsl(var(--shadow-color) / 0.34),
+    3.1px 3.7px 5.4px -0.7px hsl(var(--shadow-color) / 0.34),
+    5.1px 6px 8.9px -1.1px hsl(var(--shadow-color) / 0.34),
+    8.1px 9.6px 14.1px -1.4px hsl(var(--shadow-color) / 0.34),
+    12.6px 15.1px 22.1px -1.8px hsl(var(--shadow-color) / 0.34),
+    19.2px 22.9px 33.6px -2.1px hsl(var(--shadow-color) / 0.34),
+    28.3px 33.7px 49.5px -2.5px hsl(var(--shadow-color) / 0.34);
+}
+
+* {
+  box-sizing:border-box;
+  background: #f3f3f300;
+  font-family: 'Karla', sans-serif;
+}
+
+/* GALLERY */
+.gallery {
+  margin-top: 90px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+figure img {
+  width: 270px;
+  height: 370px;
+  border-radius: 15px;
+  box-shadow: var(--shadow-elevation-high);
+  cursor: pointer;
+  /* border: 2px solid black;
+  padding: 5px; */
+
+}
+.landscape{
+  height: 250px;
+  width: 375px;
+  border-radius: 10px;
+  box-shadow: var(--shadow-elevation-high);
+  cursor: pointer;
+}
+img {
+    pointer-events: none;   
+}
+/* 3d effect */
+/* img {
+  transform: perspective(900px) rotateX(60deg) scale(0.7);
+  box-shadow: 0px 20px 100px #555;
+  transition: 0.5s ease all;
+  background: linear-gradient(180deg, #eba65b 30%, #d99267);   
+
+  &:hover {
+    transform: rotate(0deg) scale(1) translateY(10px);
+  }
+} */
+
+    </style>
+</head>
+<header>
+    <ul class="navi">
+        <a class="an" href="index.html">HOME</a>
+        <a class="an" href="#Projects">PROJECTS</a>
+        <a class="an" href="#Skills">SKILLS</a>
+        <a class="an" href="#Education">EDUCATION</a> 
+        <a class="an" href="#Contact">CONTACT</a>           
+    </ul>
+</header>
+<body>
+    <main>
+        <div class="gallery">
+          <figure>
+            <img src="images/photography/half_moon.jpg" title="Photo by Krishnanu">
+            <figcaption>The Moon</figcaption>
+          </figure>
+        
+          <figure>
+            <img src="images/photography/The_bark.jpg" title="Photo by Krishnanu">
+            <figcaption>The Bark</figcaption>
+          </figure>
+
+          <figure>
+            <img class="landscape" src="images/photography/Family.jpg">
+            <figcaption>Family</figcaption>
+          </figure>
+        
+          <figure>
+            <img class="landscape" src="images/photography/Grasshopper.jpg">
+            <figcaption>CoffeShop </figcaption>
+          </figure>
+          
+            <figure>
+            <img class="landscape" src="images/photography/Peace.jpg">
+            <figcaption>Peace...</figcaption>
+          </figure>
+          
+          <figure>
+           <img class="landscape" src="images/photography/The_Kingfisher.jpg">
+           <figcaption>The Kingfisher</figcaption>
+         </figure>
+        
+         <figure>
+            <img src="images/photography/Lonely.png" title="Photo by Krishnanu">
+            <figcaption>Lonely like the Moon</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photography/The_10.png">
+            <figcaption>The 10</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photography/All_eyes_on_you.png">
+            <figcaption>Back to Home</figcaption>
+          </figure>
+          <figure>
+            <img class="landscape" src="images/photography/clear_vision.png">
+            <figcaption>Back to Home</figcaption>
+          </figure>
+          <figure>
+            <img class="landscape" src="images/photography/The_Swan.png">
+            <figcaption>Freedom</figcaption>
+          </figure>
+          <figure>
+            <img class="landscape" src="images/photography/The_game.JPG">
+            <figcaption>The Game</figcaption>
+          </figure>
+          <figure>
+            <img class="landscape" src="images/photography/JASPER_IIT_ISM.JPG">
+            <figcaption>Open air</figcaption>
+          </figure>
+        <figure>
+            <img class="landscape" src="images/photography/spark.jpg">
+            <figcaption>Some spark
+            </figcaption>
+        </figure>
+          
+        <figure>
+          <img class="landscape" src="images/photography/ducks.jpg">
+            <figcaption>Love Birds</figcaption>
+        </figure>
+            
+        <figure>
+          <img src="images/photography/sunset.jpg">
+            <figcaption>Drowning in the sunset glow</figcaption>
+        </figure>
+             
+        <figure>
+          <img class="landscape" src="images/photography/bozo.png">
+            <figcaption>Eyes never lie.</figcaption>
+        </figure>
+             
+        <figure>
+          <img class="landscape" src="images/photography/dawn.jpg">
+            <figcaption>Dusk to dawn</figcaption>
+        </figure>
+             
+        <figure>
+          <img class="landscape" src="images/photography/ghats.jpg">
+            <figcaption>The messy sky</figcaption>
+        </figure>
+
+
+        </div>
+    </main>
+    <footer style="margin-top: 25px;">
+        <div class="footer" style="font-size: larger;">
+             Contact us : krishnanunag@gmail.com<br>
+                Copyright © 2024| All Rights Reserved.|
+                <!-- <a href="#Home"><img class="uplogo" src="images/up.png" alt="up button"></a>    -->
+        </div>    
+    </footer> 
+</body>
+</html>
