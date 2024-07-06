@@ -32,7 +32,7 @@
 }
 
 * {
-  box-sizing:border-box;
+
   background: #f3f3f300;
   font-family: 'Karla', sans-serif;
 }
@@ -41,11 +41,13 @@
 .gallery {
   margin-top: 90px;
   display: grid;
-  grid-gap: 15px;
+  grid-gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
   grid-template-rows: auto;
   justify-items: center;
   align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 figure img {
@@ -54,8 +56,6 @@ figure img {
   border-radius: 15px;
   box-shadow: var(--shadow-elevation-high);
   cursor: pointer;
-  /* border: 2px solid black;
-  padding: 5px; */
 
 }
 .landscape{
@@ -67,6 +67,10 @@ figure img {
 }
 img {
     pointer-events: none;   
+}
+figcaption{
+  text-align: center;
+  font-weight: 600;
 }
 /* 3d effect */
 /* img {
@@ -80,20 +84,31 @@ img {
   }
 } */
 
+
     </style>
 </head>
 <header>
-    <ul class="navi">
-        <a class="an" href="index.html">HOME</a>
-        <a class="an" href="#Projects">PROJECTS</a>
-        <a class="an" href="#Skills">SKILLS</a>
-        <a class="an" href="#Education">EDUCATION</a> 
-        <a class="an" href="#Contact">CONTACT</a>           
-    </ul>
+  <ul class="navi" >
+    <a class="an" id="home" href="index.html">HOME</a>
+    <a class="an" id="projects" href="index.html#Projects">PROJECTS</a>
+    
+    <span class="skills_dropdown">
+        <a class="an" id="skills" href="#">SKILLS</a>
+        <div class="dropdown-content">
+            <a href="index.html#Skills">Technical Skills</a>
+            <a href="#">Photography</a>
+            <a href="videography.html">Videography</a>
+            <a href="guitar.html">Guitar</a>
+        </div>
+    </span>
+    
+    
+    <a class="an" id="education" href="index.html#Education">EDUCATION</a> 
+    <a class="an" id="contact" href="#Contact">CONTACT</a>           
+</ul>
 </header>
 <body>
-    <main>
-        <div class="gallery">
+  <div class="gallery">
           <figure>
             <img src="images/photography/half_moon.jpg" title="Photo by Krishnanu">
             <figcaption>The Moon</figcaption>
@@ -136,11 +151,11 @@ img {
 
           <figure>
             <img src="images/photography/All_eyes_on_you.png">
-            <figcaption>Back to Home</figcaption>
+            <figcaption>All eyes on you !!</figcaption>
           </figure>
           <figure>
             <img class="landscape" src="images/photography/clear_vision.png">
-            <figcaption>Back to Home</figcaption>
+            <figcaption>Vision</figcaption>
           </figure>
           <figure>
             <img class="landscape" src="images/photography/The_Swan.png">
@@ -183,17 +198,25 @@ img {
         <figure>
           <img class="landscape" src="images/photography/ghats.jpg">
             <figcaption>The messy sky</figcaption>
-        </figure>
+        </figure><br>
+  
+</div>
+<footer >      
+  <div class="footer" style="font-size: larger;">
+      <div id="Contact" >
+          <ul class="social">
+          <a href="https://www.linkedin.com/in/krishnanu-nag-322603251/" target="_blank"><img class="logo" src="images/linkedin.png" alt="linkedin id"></a>
+          <a href="https://www.instagram.com/krishnanu_nag/" target="_blank"><img  class="logo" src="images/instagram.png" alt="instagram handle"></a>
+          <a href="https://www.youtube.com/@krishnanunag/videos" target="_blank"><img  class="logo" src="images/youtube.png" alt="youtube channel "></a>
+          <a href="mailto:krishnanunag@gmail.com" target="_blank"><img  class="logo" src="images/email.png" alt="mail to author"></a>
+          <a href="https://github.com/Krishnanu-nag" target="_blank"><img  class="logo" src="images/github.png" alt="github id"></a>
+          </ul>
+      </div>
+      <p><br>| Copyright © 2024. All Rights Reserved. |</p>
+  </div>    
+</footer>    
 
 
-        </div>
-    </main>
-    <footer style="margin-top: 25px;">
-        <div class="footer" style="font-size: larger;">
-             Contact us : krishnanunag@gmail.com<br>
-                Copyright © 2024| All Rights Reserved.|
-                <!-- <a href="#Home"><img class="uplogo" src="images/up.png" alt="up button"></a>    -->
-        </div>    
-    </footer> 
+    
 </body>
 </html>
