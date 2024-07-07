@@ -261,10 +261,7 @@ button{
 
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 7d0c9e8454dafd9a4c50bb125a1f1d6e571d8201
   /* education page css start */
   .card-container {
     display: grid;
@@ -276,22 +273,15 @@ button{
   }
   
   .card {
-<<<<<<< HEAD
     background-color: aliceblue;
-=======
     background-color: #fff;
->>>>>>> 7d0c9e8454dafd9a4c50bb125a1f1d6e571d8201
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     overflow: hidden;
     padding: 20px;
     text-align: center;
-<<<<<<< HEAD
-   
- 
-=======
->>>>>>> 7d0c9e8454dafd9a4c50bb125a1f1d6e571d8201
   }
+ 
   
 .edu_logo{
     max-width: 50%;
@@ -313,7 +303,6 @@ button{
   @media (max-width: 768px) {
     .card-container {
       grid-template-columns: repeat(2, 1fr);
-<<<<<<< HEAD
       width: 80vw;
     }
    
@@ -327,9 +316,6 @@ button{
     }
   }
 
-=======
-    }
-  }
 
   @media (max-width: 480px) {
     .card-container {
@@ -337,7 +323,7 @@ button{
     }
   }
 
->>>>>>> 7d0c9e8454dafd9a4c50bb125a1f1d6e571d8201
+
   /* education page css end */
 
 
@@ -358,7 +344,7 @@ button{
 
  
 /* videography and guitar css ends  */
-<<<<<<< HEAD
+
 
 
 
@@ -421,5 +407,3 @@ button{
 
 
 /* tech skills css ends */
-=======
->>>>>>> 7d0c9e8454dafd9a4c50bb125a1f1d6e571d8201
