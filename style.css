@@ -1,0 +1,425 @@
+html{
+    scroll-behavior: smooth;
+}
+*{ 
+    margin: 0px;
+    padding: 0px;
+
+    
+}
+
+#img{
+
+    width: 150px;
+    margin: 80px 0px 20px 0px;
+    padding: 5px;
+    border-radius: 100px;
+    border: 5px solid white ; 
+    
+}
+
+.navi{
+    text-align: center;
+    padding: 10px 0;
+    display: inline;
+    position: relative;
+    right: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    z-index: 1;
+}
+.style{
+    text-align: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-size: 18px;
+}
+
+
+.li{
+    text-align: center;
+    font-size: 18.5px;
+}
+
+.an{ 
+    padding: 0px 15px;
+    color: black;
+    text-decoration: none;
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+}
+
+.about{
+    text-align: center;
+    font-size: 22px;
+    font-weight:lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px 10px;
+    
+    
+}
+
+.footer{
+    display: block;
+    justify-content: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+    padding-top: 10px;
+    padding-bottom:20px ;
+    text-align: center;  
+
+
+}
+
+.name{
+    text-align: center;
+    margin: 0px;
+    padding: 30px 10px 0px 10px;
+  
+}
+
+h3{
+    margin: 0px 153px;
+    text-align: center;
+}  
+
+.logo{
+    width: 40px ;
+    padding:10px;
+}
+
+.social{
+    margin: 0px 0px;
+    text-align: center;
+}
+
+.resume{
+    text-align: center;
+    padding: 30px 10px;
+}
+
+#download_resume:hover{
+    background-color: rgba(131,58,180,1);
+    cursor: pointer;
+    color: aliceblue;
+}
+
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(239, 113, 10);
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 0px;
+    color: black;
+}
+/* .uplogo{
+    width: 40px ;
+    padding-top: 15px;
+} */
+.view{
+    width: 100vw;
+    background-color: antiquewhite;
+   
+    
+}
+#Home{
+    background-color: antiquewhite;
+    
+}
+#Projects{
+    text-align: center;
+    background-color: rgb(194, 245, 255);
+    height: 100vh;
+  
+   
+    
+}
+#Skills{
+    padding-top: 70px;
+    display: grid;
+    justify-items: center;
+    background-color: rgb(249, 244, 194);
+    
+}
+
+#Education{
+  background-color: rgb(196, 255, 196);
+  display: grid;
+  justify-items: center;
+  padding-top: 70px;
+}
+
+@media screen and (min-width: 768px) {
+    #Education{
+        background-color: rgb(196, 255, 196);
+        display: grid;
+        justify-items: center;
+        padding-top: 70px;
+        height: 100vh;
+      }
+      /* .card-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 1000px;
+        padding: 0px;
+        margin: 0px;
+      } */
+      .card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        overflow: hidden;
+        padding: 20px;
+        text-align: center;
+        height:300px
+      }
+  }
+
+.logo{    
+    width: 39px; 
+}
+.social{    
+    padding: 0px;
+}
+
+.down{
+    text-align: center;
+    padding: 50px 10px;
+    position: relative;
+    bottom: 5px;
+
+}
+
+
+
+.logo:hover{
+    transform: scale(1.6,1.6);
+    transition: all .1s;
+
+   
+}
+.an:hover{
+    color:aliceblue;
+    font-weight: 600;
+
+}
+
+.down_arrow:hover{
+    transform: translate(0px,15px);
+    transition: all .1s;
+}
+
+
+ 
+/* skills dropdown start */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgb(239, 113, 10);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+   
+  
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+    
+   
+  }
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(235, 160, 98);
+    color: aliceblue;
+    
+   }
+
+/* Show the dropdown menu on hover */
+.skills_dropdown:hover .dropdown-content {
+    display: block;    
+
+}
+
+.skills_dropdown {
+    position: relative;
+    display: inline-block;
+   
+  }
+
+
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7d0c9e8454dafd9a4c50bb125a1f1d6e571d8201
+  /* education page css start */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .card {
+<<<<<<< HEAD
+    background-color: aliceblue;
+=======
+    background-color: #fff;
+>>>>>>> 7d0c9e8454dafd9a4c50bb125a1f1d6e571d8201
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+<<<<<<< HEAD
+   
+ 
+=======
+>>>>>>> 7d0c9e8454dafd9a4c50bb125a1f1d6e571d8201
+  }
+  
+.edu_logo{
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .school-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .percentage {
+    font-size: 18px;
+    color: #555;
+  }
+
+  @media (max-width: 768px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr);
+<<<<<<< HEAD
+      width: 80vw;
+    }
+   
+  }
+
+
+  @media (max-width: 480px) {
+    .card-container {
+      grid-template-columns: 1fr ;
+      width: 80vw;
+    }
+  }
+
+=======
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card-container {
+      grid-template-columns: 1fr ;
+    }
+  }
+
+>>>>>>> 7d0c9e8454dafd9a4c50bb125a1f1d6e571d8201
+  /* education page css end */
+
+
+/* videography and guitar css starts  */
+
+.video_content{
+    margin-top: 70px;
+    text-align: center;
+    
+
+ }
+ iframe{padding: 10px 0;}
+ 
+ @media only screen and (max-width: 560px) {
+ iframe{
+ width: 100vw;
+ }}
+
+ 
+/* videography and guitar css ends  */
+<<<<<<< HEAD
+
+
+
+/* tech skills css starts */
+
+
+
+  .skills-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90vw;
+    padding: 20px;
+    margin-bottom: 15px;
+    gap: 40px;
+  }
+  @media (max-width: 1000px) {
+    .skills-card-container {
+      grid-template-columns: repeat(2, 1fr);
+      width: 80vw;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .skills-card-container {
+      grid-template-columns: 1fr ;
+      width: 80vw;
+    }
+  }
+
+
+.skills-card {
+    background-color: rgb(244, 237, 230);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+ 
+  }
+
+#Skills img{
+    width: 100px;
+    padding:40px;
+    transition: transform 0.5s ease-in-out;
+
+}
+#Skills img:hover{
+    transform: translateX(20px);
+    
+}
+
+#Skills img{
+    padding:40px 20px;
+}
+
+
+
+
+
+/* tech skills css ends */
+=======
+>>>>>>> 7d0c9e8454dafd9a4c50bb125a1f1d6e571d8201
