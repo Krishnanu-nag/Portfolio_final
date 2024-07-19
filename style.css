@@ -131,7 +131,7 @@ button{
     justify-items: center;
     padding-top: 70px;
     height: auto;
-   
+    padding-bottom: 20px;
     
 }
 #Skills{
@@ -146,16 +146,18 @@ button{
   background-color: rgb(196, 255, 196);
   display: grid;
   justify-items: center;
-  padding-top: 70px;
+  padding: 70px 0px;
+  height: auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     #Education{
         background-color: rgb(196, 255, 196);
         display: grid;
         justify-items: center;
         padding-top: 70px;
-        height: 100vh;
+        padding-bottom: 20px;
+        height: auto;
       }
       /* .card-container {
         display: grid;
