@@ -185,9 +185,15 @@ button{
 
 .down{
     text-align: center;
-    padding: 50px 10px;
+    padding-bottom: 25px;
     position: relative;
-    bottom: 5px;
+
+}
+.up{
+    text-align: center;
+    padding-bottom: 15px;
+    position: relative;
+    background-color: rgb(249, 244, 194);
 
 }
 
@@ -207,7 +213,11 @@ button{
 
 .down_arrow:hover{
     transform: translate(0px,15px);
-    transition: all .1s;
+    transition: all .5s;
+}
+.up_arrow:hover{
+    transform: translate(0px,-15px);
+    transition: all .5s;
 }
 
 
@@ -438,3 +448,4 @@ button{
   color: rgb(0, 0, 0);
  
  }
+ 
