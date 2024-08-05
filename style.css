@@ -4,15 +4,11 @@ html{
 *{ 
     margin: 0px;
     padding: 0px;
-    font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    
 
     
 }
+
 
 
 #img{
@@ -140,6 +136,12 @@ button{
     padding-top: 70px;
     height: auto;
     padding-bottom: 20px;
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     
 }
 #Skills{
@@ -156,6 +158,12 @@ button{
   justify-items: center;
   padding: 70px 0px;
   height: auto;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 @media screen and (max-width: 768px) {
@@ -166,15 +174,15 @@ button{
         padding-top: 70px;
         padding-bottom: 20px;
         height: auto;
+
+        font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
       }
-      /* .card-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        max-width: 1000px;
-        padding: 0px;
-        margin: 0px;
-      } */
+     
       .card {
         background-color: #fff;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -456,5 +464,11 @@ button{
  #Projects span{
   background-color: rgba(248, 92, 92, 0.726);
   color: rgb(0, 0, 0);
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
  
 }
