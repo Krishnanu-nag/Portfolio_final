@@ -132,7 +132,7 @@ button {
   background-color: antiquewhite;
 }
 #Projects {
-  background-color: rgb(194, 245, 255);
+  background-color: rgba(255, 155, 0, 0.32);
   display: grid;
   justify-items: center;
   padding-top: 70px;
@@ -152,7 +152,7 @@ button {
 }
 
 #Education {
-  background-color: rgb(196, 255, 196);
+  background-color: rgb(255, 254, 214);
   display: grid;
   justify-items: center;
   padding: 70px 0px;
@@ -166,7 +166,7 @@ button {
 
 @media screen and (max-width: 768px) {
   #Education {
-    background-color: rgb(196, 255, 196);
+    background-color:rgb(255, 254, 214);
     display: grid;
     justify-items: center;
     padding-top: 70px;
