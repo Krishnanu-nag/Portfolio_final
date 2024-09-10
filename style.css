@@ -228,7 +228,11 @@ button {
   transition: all 0.5s;
 }
 
-/* skills dropdown start */
+/* Skills dropdown styles */
+.skills_dropdown {
+  position: relative;
+  display: inline-block;
+}
 
 .dropdown-content {
   display: none;
@@ -237,7 +241,19 @@ button {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  margin-top: 10px;
+  margin-top: 2px;
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transitions */
+}
+
+.skills_dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+  display: block;
+  opacity: 1; /* Make it visible */
+}
+
+/* Ensure the dropdown stays visible while interacting */
+.skills_dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .dropdown-content a {
@@ -245,23 +261,13 @@ button {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: rgb(235, 160, 98);
   color: aliceblue;
 }
 
-/* Show the dropdown menu on hover */
-.skills_dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.skills_dropdown {
-  position: relative;
-  display: inline-block;
-}
 
 /* education page css start */
 .card-container {
